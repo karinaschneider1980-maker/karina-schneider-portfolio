@@ -57,13 +57,15 @@ body {
 }
 
 .interests h1,
-.contact h1 {
+.contact h1,
+.contact h2 {
   text-align: center;
   margin-top: 80px
 }
 
 .home h2,
-.projects h2 {
+.projects h2, 
+.contact h2 {
   font-family: var(--font-body);
   font-weight: 600;
   font-size: 18px;
@@ -72,12 +74,17 @@ body {
 }
 
 .home p,
-.projects p {
+.projects p,
+.contact p {
   font-family: var(--font-body);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   color: var(--warm-brown);
+}
+
+.contact p {
+  text-align:center;
 }
 
 .projects p {
@@ -143,7 +150,7 @@ h2.text-center {
   margin-bottom: 24px;
 }
 
-p.text-center {
+p.text-center{
   font-family: var(--font-body);
   font-weight: 400;
   font-size: 16px;
@@ -192,14 +199,18 @@ p.text-center {
   margin-bottom: 0;
 }
 
-.interests p a {
+.interests p a,
+.linkedin a,
+.email a  {
   color: var(--warm-brown);
   text-decoration: underline;
   font-weight: 500;
   transition: color 350ms ease-in-out;
 }
 
-.interests p a:hover {
+.interests p a:hover,
+.linkedin a:hover,
+.email a:hover {
   color: var(--sage-green);
   text-decoration: underline;
 }
