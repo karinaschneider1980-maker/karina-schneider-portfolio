@@ -94,8 +94,10 @@ body {
 .sitting {
   border-radius: 10px;
   width: 100%;
+  max-width: 500px;
   max-height: 640px;
   object-fit: cover;
+  object-position: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
