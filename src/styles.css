@@ -31,10 +31,10 @@ body {
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  align-self: stretch;        
-  display: flex;             
-  flex-direction: column;   
-  justify-content: center; 
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .home-image {
@@ -60,11 +60,11 @@ body {
 .contact h1,
 .contact h2 {
   text-align: center;
-  margin-top: 80px
+  margin-top: 80px;
 }
 
 .home h2,
-.projects h2, 
+.projects h2,
 .contact h2 {
   font-family: var(--font-body);
   font-weight: 600;
@@ -84,7 +84,7 @@ body {
 }
 
 .contact p {
-  text-align:center;
+  text-align: center;
 }
 
 .projects p {
@@ -150,7 +150,7 @@ h2.text-center {
   margin-bottom: 24px;
 }
 
-p.text-center{
+p.text-center {
   font-family: var(--font-body);
   font-weight: 400;
   font-size: 16px;
@@ -201,7 +201,7 @@ p.text-center{
 
 .interests p a,
 .linkedin a,
-.email a  {
+.email a {
   color: var(--warm-brown);
   text-decoration: underline;
   font-weight: 500;
@@ -214,6 +214,7 @@ p.text-center{
   color: var(--sage-green);
   text-decoration: underline;
 }
+
 .btn-branding-outline {
   background-color: transparent;
   color: var(--sage-green);
@@ -293,6 +294,36 @@ p.text-center{
 
 .navbar-toggler:focus {
   box-shadow: 0 0 0 3px rgba(143, 169, 142, 0.3);
+}
+
+.containerfooter {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.containerfooter p {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--warm-brown);
+  margin-bottom: 15px;
+}
+
+.footer-icons {
+  margin-top: 15px;
+}
+
+.footer-icons a {
+  color: var(--warm-brown);
+  font-size: 24px;
+  margin: 0 20px;
+  text-decoration: none;
+  transition: color 350ms ease-in-out;
+}
+
+.footer-icons a:hover {
+  color: var(--sage-green);
 }
 
 @media (max-width: 768px) {
