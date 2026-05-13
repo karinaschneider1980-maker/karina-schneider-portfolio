@@ -12,6 +12,9 @@
 
 body {
   background-color: var(--background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .home {
@@ -212,7 +215,8 @@ p.text-center {
 
 .interests p a:hover,
 .linkedin a:hover,
-.email a:hover {
+.email a:hover,
+.GitHub-link a:hover {
   color: var(--sage-green);
   text-decoration: underline;
 }
@@ -301,25 +305,28 @@ p.text-center {
 .containerfooter {
   text-align: center;
   padding: 40px 20px;
+  margin-top: auto;
 }
 
-.containerfooter p {
+.containerfooter p,
+.GitHub-link a {
   font-family: var(--font-body);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   color: var(--warm-brown);
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 .footer-icons {
   margin-top: 15px;
+  margin-bottom: 80px;
 }
 
 .footer-icons a {
   color: var(--warm-brown);
   font-size: 24px;
-  margin: 0 20px;
+  margin: 0 15px;
   text-decoration: none;
   transition: color 350ms ease-in-out;
 }
